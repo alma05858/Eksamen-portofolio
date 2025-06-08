@@ -12,7 +12,3 @@ function updateDateTime() {
   const formattedDateTime = `${day}/${month}/${year} ${hours}:${minutes}:${seconds} ${timeZone}`;
   document.getElementById("datetime").innerText = formattedDateTime;
 }
-
-// Opdater hvert sekund
-setInterval(updateDateTime, 1000);
-updateDateTime(); // Kør funktionen med det samme
