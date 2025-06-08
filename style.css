@@ -184,7 +184,7 @@ a {
 }
 
 @media (min-width: 800px) {
-  main {
+  .main-prjekter {
     margin-left: 250px;
     padding: 100px 100px 100px 100px;
   }
@@ -366,6 +366,10 @@ a {
   margin-bottom: 150px;
 }
 
+.tema03 img {
+  border: 2px solid #000000;
+}
+
 /****************************************/
 
 /**************** Tema 4 *****************/
@@ -457,7 +461,7 @@ iframe {
 .forside a {
   height: 40px;
   padding: 2px 10px;
-  margin-top: 8px;
+  margin: 8px 7px 0 0;
   font-size: 0.9rem;
   display: inline-flex;
   align-items: center;
@@ -487,8 +491,37 @@ iframe {
 
 /**************** Om mig side ***************/
 
+main .om-mig {
+  background-image: url("billeder/om-mig-bg-tlf.png");
+}
+
+.om-mig h2 {
+  border: none;
+  margin: 0;
+}
 .om-mig a {
   color: #ffffff;
+}
+
+.om-mig .knapper {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 800px) {
+  .om-mig {
+    padding: 50px 200px;
+  }
+
+  main .om-mig {
+    background-image: url("billeder/om-mig-bg.png");
+  }
+
+  .om-mig h2 {
+    border: none;
+    text-align: center;
+    margin: 0;
+    padding: 0 100px 20px 0;
+  }
 }
 
 /****************************************/
