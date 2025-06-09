@@ -175,6 +175,7 @@ h3 {
 main p {
   font-family: "Inter", sans-serif;
   max-width: 40ch;
+  line-height: 1.6rem;
 }
 
 a {
@@ -512,8 +513,12 @@ main .om-mig {
     padding: 50px 200px;
   }
 
+  .om-mig img {
+    margin-top: 60px;
+  }
+
   main .om-mig {
-    background-image: url("billeder/om-mig-bg.png");
+    background-image: url("billeder/om-mig-bg2.png");
   }
 
   .om-mig h2 {
