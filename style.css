@@ -30,6 +30,7 @@ img {
   animation-duration: 15s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  cursor: pointer;
 }
 
 @keyframes logo_kf {
@@ -95,6 +96,7 @@ header {
 }
 
 .navbar a {
+  display: block;
   color: black;
   text-decoration: none;
   font-size: 0.9rem;
@@ -350,7 +352,7 @@ a {
 /**************** Tema 3 *****************/
 
 .tema03 {
-  background-image: url("billeder/t3-bg-img2.png");
+  background-image: url("billeder/t3-bg-img2-tlf.png");
 }
 
 .tema03 p {
@@ -365,12 +367,18 @@ a {
   border: 2px solid #000000;
 }
 
+@media (min-width: 800px) {
+  .tema03 {
+    background-image: url("billeder/t3-bg-img2.png");
+  }
+}
+
 /****************************************/
 
 /**************** Tema 4 *****************/
 
 .tema04 {
-  background-image: url("billeder/t4-bg-img-tlf.png");
+  background-image: url("billeder/t4-bg-img2-tlf.png");
 }
 
 .tema04 img {
@@ -487,7 +495,7 @@ iframe {
 /**************** Om mig side ***************/
 
 main .om-mig {
-  background-image: url("billeder/om-mig-bg-tlf.png");
+  background-image: url("billeder/om-mig-bg2-tlf2.png");
 }
 
 .om-mig h2 {
