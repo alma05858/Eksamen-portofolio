@@ -236,7 +236,9 @@ a {
   font-weight: bold;
   font-size: 0.9rem;
   opacity: 0.6;
-  transition: opacity 0.3s, background-color 0.3s;
+  transition:
+    opacity 0.3s,
+    background-color 0.3s;
   z-index: 1000;
 }
 
@@ -248,11 +250,11 @@ a {
 }
 
 @media (min-width: 800px) {
-  main img {
+  .main-prjekter img {
     transition: 0.2s;
   }
 
-  main img:hover {
+  .main-prjekter img:hover {
     scale: 110%;
     z-index: 100;
   }
@@ -283,6 +285,7 @@ a {
 
   .velkommen-section div p {
     max-width: 60ch;
+    padding-bottom: 50px;
   }
 }
 
@@ -532,3 +535,7 @@ main .om-mig {
 }
 
 /****************************************/
+
+.sem3 .velkommen-section p {
+  padding-bottom: 100px;
+}
